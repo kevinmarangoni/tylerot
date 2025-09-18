@@ -30,7 +30,7 @@ maintainModeMessage = ""
 worldType = "pvp-enforced"
 hotkeyAimbotEnabled = true
 protectionLevel = 2
-pzLocked = 1
+pzLocked = 120000
 
 removeChargesFromRunes = true
 removeChargesFromPotions = true
@@ -39,7 +39,7 @@ removeWeaponCharges = true
 removeBeginningWeaponAmmunition = true
 refundBeginningWeaponMana = false
 timeToDecreaseFrags = 1
-whiteSkullTime = 15 * 60 * 1000
+whiteSkullTime = 1
 stairJumpExhaustion = 2 * 1000
 experienceByKillingPlayers = true
 expFromPlayersLevelRange = 1
@@ -69,14 +69,14 @@ serverName = "TylerOT"
 serverMotd = "Nao se fala sobre esse server"
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
-maxPacketsPerSecond = 999
+maxPacketsPerSecond = 25
 maxPlayersOnlinePerAccount = 1
 maxPlayersOutsidePZPerAccount = 1
 
 -- Packet Compression
 -- Minimize network bandwith and reduce ping
 -- Levels: 0 = disabled, 1 = best speed, 9 = best compression
-packetCompressionLevel = 3
+packetCompressionLevel = 1
 
 -- Depot Limit
 freeDepotLimit = 2000000
