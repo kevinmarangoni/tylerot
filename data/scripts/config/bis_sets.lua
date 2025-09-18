@@ -14,7 +14,16 @@ BisSets = {
             {id = 43865, name = "Grand Sanguine Blade", slot = "weapon2"},
             {id = 39233, name = "Enchanted Turtle Amulet", slot = "necklace"},
             {id = 34099, name = "Soulbastion", slot = "shield"},
-            {id = 39177, name = "Charged Spiritthorn Ring", slot = "ring"}
+            {id = 39177, name = "Charged Spiritthorn Ring", slot = "ring"},
+            -- Itens auxiliares de quest
+            {id = 28493, name = "Bone Fiddle", slot = "auxiliary"},
+            {id = 43863, name = "Conch Shell Horn", slot = "auxiliary"},
+            {id = 2921, name = "Lit Torch", slot = "auxiliary"},
+            {id = 25975, name = "Moon Mirror", slot = "auxiliary"},
+            {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
+            {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
+            {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
         }
     },
 
@@ -31,6 +40,15 @@ BisSets = {
             {id = 43880, name = "Grand Sanguine Crossbow", slot = "weapon2"},
             {id = 39180, name = "Charged Alicorn Ring", slot = "ring"},
             {id = 30344, name = "Enchanted Pendulet", slot = "necklace"},
+            -- Itens auxiliares de quest
+            {id = 28493, name = "Bone Fiddle", slot = "auxiliary"},
+            {id = 43863, name = "Conch Shell Horn", slot = "auxiliary"},
+            {id = 2921, name = "Lit Torch", slot = "auxiliary"},
+            {id = 25975, name = "Moon Mirror", slot = "auxiliary"},
+            {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
+            {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
+            {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
         }
     },
 
@@ -46,7 +64,16 @@ BisSets = {
             {id = 43883, name = "Grand Sanguine Coil", slot = "weapon"},
             {id = 39183, name = "Charged Arcanomancer Sigil", slot = "ring"},
             {id = 30403, name = "Enchanted Theurgic Amulet", slot = "necklace"},
-            {id = 34090, name = "Soultainter", slot = "shield"}
+            {id = 34090, name = "Soultainter", slot = "shield"},
+            -- Itens auxiliares de quest
+            {id = 28493, name = "Bone Fiddle", slot = "auxiliary"},
+            {id = 43863, name = "Conch Shell Horn", slot = "auxiliary"},
+            {id = 2921, name = "Lit Torch", slot = "auxiliary"},
+            {id = 25975, name = "Moon Mirror", slot = "auxiliary"},
+            {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
+            {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
+            {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
         }
     },
 
@@ -62,7 +89,16 @@ BisSets = {
             {id = 34093, name = "Soulstrider", slot = "legs"},
             {id = 43887, name = "Sanguine Galoshes", slot = "feet"},
             {id = 39154, name = "Arboreal Tome", slot = "book"},
-            {id = 34091, name = "Soulhexer", slot = "shield"}
+            {id = 34091, name = "Soulhexer", slot = "shield"},
+            -- Itens auxiliares de quest
+            {id = 28493, name = "Bone Fiddle", slot = "auxiliary"},
+            {id = 43863, name = "Conch Shell Horn", slot = "auxiliary"},
+            {id = 2921, name = "Lit Torch", slot = "auxiliary"},
+            {id = 25975, name = "Moon Mirror", slot = "auxiliary"},
+            {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
+            {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
+            {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
         }
     },
 
@@ -78,7 +114,16 @@ BisSets = {
             {id = 43883, name = "Grand Sanguine Coil", slot = "weapon"},
             {id = 39183, name = "Charged Arcanomancer Sigil", slot = "ring"},
             {id = 30403, name = "Enchanted Theurgic Amulet", slot = "necklace"},
-            {id = 34090, name = "Soultainter", slot = "shield"}
+            {id = 34090, name = "Soultainter", slot = "shield"},
+            -- Itens auxiliares de quest
+            {id = 28493, name = "Bone Fiddle", slot = "auxiliary"},
+            {id = 43863, name = "Conch Shell Horn", slot = "auxiliary"},
+            {id = 2921, name = "Lit Torch", slot = "auxiliary"},
+            {id = 25975, name = "Moon Mirror", slot = "auxiliary"},
+            {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
+            {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
+            {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
         }
     },
 
@@ -94,7 +139,16 @@ BisSets = {
             {id = 34093, name = "Soulstrider", slot = "legs"},
             {id = 43887, name = "Sanguine Galoshes", slot = "feet"},
             {id = 39154, name = "Arboreal Tome", slot = "book"},
-            {id = 34091, name = "Soulhexer", slot = "shield"}
+            {id = 34091, name = "Soulhexer", slot = "shield"},
+            -- Itens auxiliares de quest
+            {id = 28493, name = "Bone Fiddle", slot = "auxiliary"},
+            {id = 43863, name = "Conch Shell Horn", slot = "auxiliary"},
+            {id = 2921, name = "Lit Torch", slot = "auxiliary"},
+            {id = 25975, name = "Moon Mirror", slot = "auxiliary"},
+            {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
+            {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
+            {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
         }
     },
 
@@ -111,6 +165,15 @@ BisSets = {
             {id = 43880, name = "Grand Sanguine Crossbow", slot = "weapon2"},
             {id = 39180, name = "Charged Alicorn Ring", slot = "ring"},
             {id = 30344, name = "Enchanted Pendulet", slot = "necklace"},
+            -- Itens auxiliares de quest
+            {id = 28493, name = "Bone Fiddle", slot = "auxiliary"},
+            {id = 43863, name = "Conch Shell Horn", slot = "auxiliary"},
+            {id = 2921, name = "Lit Torch", slot = "auxiliary"},
+            {id = 25975, name = "Moon Mirror", slot = "auxiliary"},
+            {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
+            {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
+            {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
         }
     },
 
@@ -126,7 +189,16 @@ BisSets = {
             {id = 43865, name = "Grand Sanguine Blade", slot = "weapon2"},
             {id = 39233, name = "Enchanted Turtle Amulet", slot = "necklace"},
             {id = 34099, name = "Soulbastion", slot = "shield"},
-            {id = 39177, name = "Charged Spiritthorn Ring", slot = "ring"}
+            {id = 39177, name = "Charged Spiritthorn Ring", slot = "ring"},
+            -- Itens auxiliares de quest
+            {id = 28493, name = "Bone Fiddle", slot = "auxiliary"},
+            {id = 43863, name = "Conch Shell Horn", slot = "auxiliary"},
+            {id = 2921, name = "Lit Torch", slot = "auxiliary"},
+            {id = 25975, name = "Moon Mirror", slot = "auxiliary"},
+            {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
+            {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
+            {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
         }
     },
 
@@ -183,12 +255,13 @@ function BisSets.getVocationSetSmart(vocationId)
 end
 
 -- Log das configurações
-print(">> [BiS Sets] Sets BiS carregados!")
-print(">> [BiS Sets] Elite Knight: " .. (#BisSets[4].items) .. " itens")
-print(">> [BiS Sets] Paladin: " .. (#BisSets[3].items) .. " itens")
-print(">> [BiS Sets] Sorcerer: " .. (#BisSets[1].items) .. " itens")
-print(">> [BiS Sets] Druid: " .. (#BisSets[2].items) .. " itens")
-print(">> [BiS Sets] Master Sorcerer: " .. (#BisSets[5].items) .. " itens")
-print(">> [BiS Sets] Elder Druid: " .. (#BisSets[6].items) .. " itens")
-print(">> [BiS Sets] Royal Paladin: " .. (#BisSets[7].items) .. " itens")
-print(">> [BiS Sets] Elite Knight (Promovida): " .. (#BisSets[8].items) .. " itens")
+print(">> [BiS Sets] Sets BiS carregados com itens auxiliares!")
+print(">> [BiS Sets] Knight: " .. (#BisSets[4].items) .. " itens (+" .. 8 .. " auxiliares)")
+print(">> [BiS Sets] Paladin: " .. (#BisSets[3].items) .. " itens (+" .. 8 .. " auxiliares)")
+print(">> [BiS Sets] Sorcerer: " .. (#BisSets[1].items) .. " itens (+" .. 8 .. " auxiliares)")
+print(">> [BiS Sets] Druid: " .. (#BisSets[2].items) .. " itens (+" .. 8 .. " auxiliares)")
+print(">> [BiS Sets] Master Sorcerer: " .. (#BisSets[5].items) .. " itens (+" .. 8 .. " auxiliares)")
+print(">> [BiS Sets] Elder Druid: " .. (#BisSets[6].items) .. " itens (+" .. 8 .. " auxiliares)")
+print(">> [BiS Sets] Royal Paladin: " .. (#BisSets[7].items) .. " itens (+" .. 8 .. " auxiliares)")
+print(">> [BiS Sets] Elite Knight: " .. (#BisSets[8].items) .. " itens (+" .. 8 .. " auxiliares)")
+print(">> [BiS Sets] Itens auxiliares adicionados: Bone Fiddle, Conch Shell Horn, Lit Torch, Moon Mirror, Scarab Ocarina, Starlight Vial, Sun Catcher, Magical Torch")

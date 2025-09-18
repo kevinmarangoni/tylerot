@@ -161,6 +161,8 @@ function playerLoginGlobal.onLogin(player)
 	player:registerEvent("BossParticipation")
 	player:registerEvent("UpdatePlayerOnAdvancedLevel")
 	player:registerEvent("MontariasGratis")
+	player:registerEvent("SpawnThais")
+	player:registerEvent("AddonsCompletos")
 	return true
 end
 
