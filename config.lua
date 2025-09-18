@@ -29,22 +29,23 @@ maintainModeMessage = ""
 -- NOTE: loginProtectionTime in MS
 worldType = "pvp-enforced"
 hotkeyAimbotEnabled = true
-protectionLevel = 99999999
+protectionLevel = 2
 pzLocked = 1
+
 removeChargesFromRunes = true
 removeChargesFromPotions = true
 removeWeaponAmmunition = true
 removeWeaponCharges = true
 removeBeginningWeaponAmmunition = true
 refundBeginningWeaponMana = false
-timeToDecreaseFrags = 24 * 60 * 60 * 1000
+timeToDecreaseFrags = 1
 whiteSkullTime = 15 * 60 * 1000
 stairJumpExhaustion = 2 * 1000
-experienceByKillingPlayers = false
-expFromPlayersLevelRange = 75
-dayKillsToRedSkull = 3
-weekKillsToRedSkull = 5
-monthKillsToRedSkull = 10
+experienceByKillingPlayers = true
+expFromPlayersLevelRange = 1
+dayKillsToRedSkull = 9999
+weekKillsToRedSkull = 9999
+monthKillsToRedSkull = 9999
 redSkullDuration = 1
 blackSkullDuration = 3
 orangeSkullDuration = 7
@@ -57,7 +58,7 @@ cleanProtectionZones = false
 -- NOTE: maxPlayers set to 0 means no limit
 -- NOTE: MaxPacketsPerSeconds if you change you will be subject to bugs by WPE, keep the default value of 25,
 -- It's recommended to use a range like min 50 in this function, otherwise you will be disconnected after equipping two-handed distance weapons.
-ip = "0.0.0.0"
+ip = "206.0.29.109"
 allowOldProtocol = false
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
@@ -68,14 +69,14 @@ serverName = "TylerOT"
 serverMotd = "Nao se fala sobre esse server"
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
-maxPacketsPerSecond = 25
+maxPacketsPerSecond = 999
 maxPlayersOnlinePerAccount = 1
 maxPlayersOutsidePZPerAccount = 1
 
 -- Packet Compression
 -- Minimize network bandwith and reduce ping
 -- Levels: 0 = disabled, 1 = best speed, 9 = best compression
-packetCompressionLevel = 6
+packetCompressionLevel = 3
 
 -- Depot Limit
 freeDepotLimit = 2000000
@@ -120,11 +121,11 @@ augmentStrongImpactPercent = 10
 -- NOTE: preyFreeRerollTime: Time in seconds that players will have to wait to get a new free prey list.
 preySystemEnabled = true
 preyFreeThirdSlot = true
-preyRerollPricePerLevel = 200
-preySelectListPrice = 5
-preyBonusRerollPrice = 1
-preyBonusTime = 2 * 60 * 60
-preyFreeRerollTime = 20 * 60 * 60
+preyRerollPricePerLevel = 0
+preySelectListPrice = 0
+preyBonusRerollPrice = 0
+preyBonusTime = 2 * 600 * 600
+preyFreeRerollTime = 20 * 600 * 600
 
 -- Task hunting system
 -- NOTE: taskHuntingLimitedTasksExhaust: Time to wait to select a new creature on the task hunting slot after claiming the reward.
@@ -146,17 +147,17 @@ taskHuntingFreeRerollTime = 20 * 60 * 60
 -- NOTE: forgeFiendishLimit, limit of diabolic monsters that will be created in interval type and time, less than forgeInfluencedLimit
 -- NOTE: forgeFiendishIntervalType: "hour", "minute" or "second"
 forgeMaxItemTier = 10
-forgeCostOneSliver = 20
-forgeSliverAmount = 3
-forgeCoreCost = 50
-forgeMaxDust = 225
-forgeFusionDustCost = 100
-forgeConvergenceFusionDustCost = 130
-forgeTransferDustCost = 100
-forgeConvergenceTransferCost = 160
-forgeBaseSuccessRate = 50
-forgeBonusSuccessRate = 15
-forgeTierLossReduction = 50
+forgeCostOneSliver = 0
+forgeSliverAmount = 0
+forgeCoreCost = 0
+forgeMaxDust = 999
+forgeFusionDustCost = 0
+forgeConvergenceFusionDustCost = 0
+forgeTransferDustCost = 0
+forgeConvergenceTransferCost = 0
+forgeBaseSuccessRate = 100
+forgeBonusSuccessRate = 100
+forgeTierLossReduction = 100
 forgeAmountMultiplier = 3
 forgeMinSlivers = 3
 forgeMaxSlivers = 7
@@ -186,7 +187,7 @@ transcendanceAvatarDuration = 7000
 -- Bestiary & Bosstiary system
 -- NOTE: bestiaryKillMultiplier, multiplier value of monster killed, default 1
 -- NOTE: bosstiaryKillMultiplier, multiplier value of boss killed, default 1
-bestiaryKillMultiplier = 1
+bestiaryKillMultiplier = 1000
 bosstiaryKillMultiplier = 1
 bestiaryRateCharmShopPrice  = 1.0
 boostedBossSlot = true
@@ -230,13 +231,13 @@ wheelSystemEnabled = true
 wheelPointsPerLevel = 1
 
 -- Gem Atelier
-wheelAtelierRotateLesserCost = 125000
-wheelAtelierRotateRegularCost = 250000
-wheelAtelierRotateGreaterCost = 500000
+wheelAtelierRotateLesserCost = 0
+wheelAtelierRotateRegularCost = 0
+wheelAtelierRotateGreaterCost = 0
 
-wheelAtelierRevealLesserCost = 125000
-wheelAtelierRevealRegularCost = 1000000
-wheelAtelierRevealGreaterCost = 6000000
+wheelAtelierRevealLesserCost = 0
+wheelAtelierRevealRegularCost = 0
+wheelAtelierRevealGreaterCost = 0
 
 -- Familiar system
 -- NOTE: the time will be divided by 2 to get half the value, the familiar lasts 15 minutes by default and the cooldown of the spell is 30 minutes
@@ -347,7 +348,7 @@ freeQuestStage = 1
 -- NOTE: Leave deathLosePercent as -1 if you want to use the default
 -- death penalty formula. For the old formula, set it to 10. For
 -- no skill/experience loss, set it to 0.
-deathLosePercent = -1
+deathLosePercent = 0
 leavePartyOnDeath = false
 
 -- Houses
@@ -528,7 +529,7 @@ rateExerciseTrainingSpeed = rateAttackSpeed
 
 -- Monster rates
 rateMonsterHealth = 1.0
-rateMonsterAttack = 1.0
+rateMonsterAttack = 1.15
 rateMonsterDefense = 1.0
 
 -- Npc rates
