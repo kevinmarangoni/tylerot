@@ -94,7 +94,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -603 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -603 },
 	{ name = "ghastly dragon curse", interval = 2000, chance = 5, range = 5, target = false },
 	-- poison
 	{ name = "condition", type = CONDITION_POISON, interval = 2000, chance = 10, minDamage = -520, maxDamage = -780, range = 5, effect = CONST_ME_SMALLCLOUDS, target = true },

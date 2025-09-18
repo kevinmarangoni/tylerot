@@ -62,7 +62,7 @@ monster.voices = {
 monster.loot = {}
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -0, maxDamage = -219 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -0, maxDamage = -219 },
 	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -0, maxDamage = -0, radius = 4, effect = CONST_ME_MAGIC_BLUE, target = true }, --[[Blue Sparkles Effect|Large Blue Sparkles area spell]]
 }
 

@@ -5,7 +5,7 @@ local talkaction = TalkAction("/ir")
 -- Tabela com todas as localizações de teleporte organizadas por categoria
 local teleportLocations = {
 	-- 🏠 CIDADES E TOWNS
-	["thais"] = Position(32360, 32241, 7),
+	["thais"] = Position(32369, 32237, 7), -- Templo de Thais (centro)
 	["venore"] = Position(32957, 32076, 7),
 	["carlin"] = Position(32360, 31782, 7),
 	["ab'dendriel"] = Position(32732, 31634, 7),
@@ -20,6 +20,11 @@ local teleportLocations = {
 	["oramond"] = Position(33479, 31964, 7),
 	["edron"] = Position(33217, 31814, 7),
 	["tibia"] = Position(32369, 32241, 7),
+	
+	-- Variações para Thais
+	["thais templo"] = Position(32369, 32237, 7), -- Templo de Thais
+	["templo thais"] = Position(32369, 32237, 7), -- Templo de Thais
+	["templo de thais"] = Position(32369, 32237, 7), -- Templo de Thais
 
 	-- 🏰 DUNGEONS POPULARES
 	["dragon"] = Position(32957, 32360, 7),
@@ -186,6 +191,7 @@ function showHelp(player)
 	player:sendTextMessage(MESSAGE_INFO_DESCR, "   /ir list       - Lista todos os locais")
 	player:sendTextMessage(MESSAGE_INFO_DESCR, "")
 	player:sendTextMessage(MESSAGE_INFO_DESCR, "🏠 CIDADES: thais, venore, carlin, ab'dendriel, rookgaard")
+	player:sendTextMessage(MESSAGE_INFO_DESCR, "🏛️ TEMPLOS: thais templo, templo thais, templo de thais")
 	player:sendTextMessage(MESSAGE_INFO_DESCR, "🏰 DUNGEONS: dragon, hero, warlock, necromancer, paladin")
 	player:sendTextMessage(MESSAGE_INFO_DESCR, "🏛️ QUESTS: inquisition, yalahar, emperor, ferumbras, cults")
 	player:sendTextMessage(MESSAGE_INFO_DESCR, "🎭 ARENAS: arena, warrior guild, wizard guild")
@@ -208,6 +214,7 @@ function showAllLocations(player)
 
 	local categories = {
 		{"🏠 CIDADES", {"thais", "venore", "carlin", "ab'dendriel", "rookgaard", "kazordoon", "darashia", "ankrahmun", "port hope", "svargrond", "liberty bay", "yalahar", "oramond", "edron", "tibia"}},
+		{"🏛️ TEMPLOS", {"thais templo", "templo thais", "templo de thais"}},
 		{"🏰 DUNGEONS", {"dragon", "hero", "warlock", "necromancer", "paladin", "dragon lord", "hero entrance", "warlock entrance", "necromancer entrance", "paladin entrance"}},
 		{"🏛️ QUESTS", {"inquisition", "yalahar quest", "emperor", "ferumbras", "cults", "inquisition entrance", "yalahar entrance", "emperor entrance", "ferumbras entrance", "cults entrance"}},
 		{"🎭 ARENAS", {"arena", "warrior guild", "wizard guild", "paladin guild", "knight guild", "arena entrance"}},

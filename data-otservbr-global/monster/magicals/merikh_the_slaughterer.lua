@@ -86,7 +86,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -304 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -304 },
 	--fireball
 	--heavy magic missile
 	--sudden death

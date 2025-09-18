@@ -101,7 +101,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, skill = 120, attack = 82 },
+	{ name = "melee", interval = 1500, chance = 100, skill = 120, attack = 82 },
 	{ name = "combat", interval = 2000, chance = 7, type = COMBAT_DEATHDAMAGE, minDamage = -200, maxDamage = -260, range = 7, shootEffect = CONST_ANI_EARTH, effect = CONST_ME_SOUND_RED, target = true },
 	{ name = "combat", interval = 2000, chance = 11, type = COMBAT_LIFEDRAIN, minDamage = -200, maxDamage = -285, radius = 3, effect = CONST_ME_MAGIC_RED, target = false },
 	{ name = "seacrest serpent wave", interval = 2000, chance = 30, minDamage = 0, maxDamage = -284, target = false },
@@ -113,7 +113,7 @@ monster.defenses = {
 	armor = 51,
 	mitigation = 1.21,
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_HEALING, minDamage = 145, maxDamage = 200, effect = CONST_ME_SOUND_BLUE, target = false },
-	{ name = "melee", interval = 2000, chance = 10, minDamage = 0, maxDamage = 0 },
+	{ name = "melee", interval = 1500, chance = 10, minDamage = 0, maxDamage = 0 },
 }
 
 monster.elements = {

@@ -66,8 +66,8 @@ monster.voices = {
 monster.loot = {}
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -0, maxDamage = -677 },
-	{ name = "melee", interval = 2000, chance = 100, skill = 100, attack = 60 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -0, maxDamage = -677 },
+	{ name = "melee", interval = 1500, chance = 100, skill = 100, attack = 60 },
 	{ name = "hirintror freeze", interval = 2000, chance = 15, target = false },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -0, maxDamage = -268, range = 7, radius = 3, shootEffect = CONST_ANI_ICE, effect = CONST_ME_BLOCKHIT, target = true },
 	{ name = "ice golem paralyze", interval = 2000, chance = 11, target = false },

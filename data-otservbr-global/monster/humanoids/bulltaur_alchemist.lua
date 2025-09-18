@@ -96,7 +96,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -120, maxDamage = -270 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -120, maxDamage = -270 },
 	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -300, maxDamage = -420, radius = 3, effect = CONST_ME_REDSMOKE, target = true },
 	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -280, maxDamage = -400, range = 4, radius = 4, shootEffect = CONST_ANI_ENERGYBALL, effect = CONST_ME_PURPLESMOKE, target = true },
 	{ name = "bulltaur avalanche", interval = 2000, chance = 20, minDamage = -350, maxDamage = -450 },

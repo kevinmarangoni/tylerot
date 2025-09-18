@@ -73,7 +73,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -225 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -225 },
 	{ name = "combat", interval = 1000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -240, maxDamage = -320, radius = 2, shootEffect = CONST_ANI_ICE, effect = CONST_ME_LOSEENERGY, target = true },
 }
 

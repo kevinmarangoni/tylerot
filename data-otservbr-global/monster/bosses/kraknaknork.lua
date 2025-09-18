@@ -78,7 +78,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -10, condition = { type = CONDITION_POISON, totalDamage = 5, interval = 4000 } },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -10, condition = { type = CONDITION_POISON, totalDamage = 5, interval = 4000 } },
 	{ name = "kraknaknork ice wave", interval = 2000, chance = 10, minDamage = -1, maxDamage = -15, target = false },
 	{ name = "kraknaknork poison wave", interval = 2000, chance = 10, minDamage = -1, maxDamage = -10, target = false },
 	{ name = "kraknaknork explosion wave", interval = 2000, chance = 10, minDamage = 0, maxDamage = -12, target = false },

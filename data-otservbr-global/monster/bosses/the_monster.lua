@@ -84,7 +84,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -2800 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -2800 },
 	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_ENERGYDAMAGE, minDamage = -600, maxDamage = -1200, effect = CONST_ME_ENERGYAREA, target = true, radius = 5, range = 3 },
 	{ name = "destroy magic walls", interval = 1000, chance = 50 },
 }

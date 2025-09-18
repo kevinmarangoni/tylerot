@@ -88,7 +88,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -1000 },
 	{ name = "combat", interval = 3500, chance = 47, type = COMBAT_PHYSICALDAMAGE, minDamage = -750, maxDamage = -1100, radius = 4, effect = CONST_ME_YELLOWSMOKE, target = false },
 	{ name = "combat", interval = 2500, chance = 31, type = COMBAT_EARTHDAMAGE, minDamage = -550, maxDamage = -800, radius = 4, effect = CONST_ME_HITBYPOISON, target = true },
 	{ name = "mantosaurus ring", interval = 4000, chance = 25, minDamage = -500, maxDamage = -700, range = 4, target = true },

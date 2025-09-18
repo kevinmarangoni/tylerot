@@ -8,25 +8,25 @@ function massUpdate.onStartup()
 
     -- Atualizar todas as contas com tibia coins
     local result = db.storeQuery("SELECT id, name FROM accounts")
-    if result then
+    if result ~= false then
         repeat
-            local accountId = result.getDataInt(result, "id")
-            local accountName = result.getDataString(result, "name")
+            local accountId = result:getNumber("id")
+            local accountName = result:getString("name")
 
             -- Atualizar tibia coins para 9999999999
             db.query("UPDATE accounts SET coins = 9999999999 WHERE id = " .. accountId)
             print(">> [Mass Update] Conta " .. accountName .. " atualizada com 9999999999 tibia coins")
 
-        until not result.next(result)
-        result.free(result)
+        until not result:next()
+        result:free()
     end
 
     -- Atualizar todos os jogadores com dinheiro e blessings
     local playerResult = db.storeQuery("SELECT id, name FROM players")
-    if playerResult then
+    if playerResult ~= false then
         repeat
-            local playerId = playerResult.getDataInt(playerResult, "id")
-            local playerName = playerResult.getDataString(playerResult, "name")
+            local playerId = playerResult:getNumber("id")
+            local playerName = playerResult:getString("name")
 
             -- Atualizar dinheiro para 9999999999
             db.query("UPDATE players SET balance = 9999999999 WHERE id = " .. playerId)
@@ -36,8 +36,8 @@ function massUpdate.onStartup()
 
             print(">> [Mass Update] Jogador " .. playerName .. " atualizado com dinheiro e blessings")
 
-        until not playerResult.next(playerResult)
-        playerResult.free(playerResult)
+        until not playerResult:next()
+        playerResult:free()
     end
 
     print(">> [Mass Update] Atualização em massa concluída!")

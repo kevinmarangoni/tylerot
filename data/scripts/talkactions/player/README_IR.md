@@ -20,7 +20,7 @@ Comando moderno e intuitivo para teleporte em todo o servidor. Substitui e melho
 ## 🏠 **CATEGORIAS DE LOCAIS**
 
 ### **🏠 CIDADES E TOWNS**
-- **thais** - Thais (32360, 32241, 7)
+- **thais** - Thais Templo (32369, 32237, 7)
 - **venore** - Venore (32957, 32076, 7)
 - **carlin** - Carlin (32360, 31782, 7)
 - **ab'dendriel** - Ab'Dendriel (32732, 31634, 7)
@@ -35,6 +35,11 @@ Comando moderno e intuitivo para teleporte em todo o servidor. Substitui e melho
 - **oramond** - Oramond (33479, 31964, 7)
 - **edron** - Edron (33217, 31814, 7)
 - **tibia** - Tibia (32369, 32241, 7)
+
+### **🏛️ TEMPLOS**
+- **thais templo** - Templo de Thais (32369, 32237, 7)
+- **templo thais** - Templo de Thais (32369, 32237, 7) 
+- **templo de thais** - Templo de Thais (32369, 32237, 7)
 
 ### **📚 LIVRARIAS (COORDENADAS CORRETAS)**
 - **livraria entrada** - Livraria Entrada (32522, 32538, 12)

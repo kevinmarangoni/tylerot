@@ -65,7 +65,7 @@ monster.voices = {
 monster.loot = {}
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -436 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -436 },
 	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -180, maxDamage = -400, range = 5, radius = 5, shootEffect = CONST_ANI_ENERGYBALL, effect = CONST_ME_PURPLEENERGY, target = true },
 	{ name = "reality reaver wave", interval = 2000, chance = 20, minDamage = -100, maxDamage = -400, target = false },
 	-- energy damage

@@ -66,7 +66,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -100 },
 	{ name = "werelion wave", interval = 2000, chance = 20, minDamage = -50, maxDamage = -150, target = false },
 	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_HOLYDAMAGE, minDamage = -50, maxDamage = -150, range = 3, effect = CONST_ME_HOLYAREA, target = true },
 	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_HOLYDAMAGE, minDamage = -50, maxDamage = -100, range = 3, shootEffect = CONST_ANI_HOLY, target = true },

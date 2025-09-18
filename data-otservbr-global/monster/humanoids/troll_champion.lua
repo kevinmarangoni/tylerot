@@ -91,7 +91,7 @@ monster.loot = {
 	{ name = "trollroot", chance = 750 },
 }
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -35 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -35 },
 }
 
 monster.defenses = {

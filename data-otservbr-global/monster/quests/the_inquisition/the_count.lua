@@ -76,7 +76,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -80, maxDamage = -135 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -80, maxDamage = -135 },
 	{ name = "combat", interval = 1000, chance = 9, type = COMBAT_LIFEDRAIN, minDamage = 0, maxDamage = -300, radius = 4, effect = CONST_ME_MAGIC_RED, target = false },
 }
 

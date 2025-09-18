@@ -97,7 +97,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -150, maxDamage = -510 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -150, maxDamage = -510 },
 	{ name = "firering", interval = 2000, chance = 10, minDamage = -300, maxDamage = -600, target = false },
 	{ name = "firex", interval = 2000, chance = 15, minDamage = -450, maxDamage = -750, target = false },
 	{ name = "combat", interval = 2000, chance = 17, type = COMBAT_FIREDAMAGE, minDamage = -300, maxDamage = -600, radius = 2, effect = CONST_ME_FIREATTACK, target = false },

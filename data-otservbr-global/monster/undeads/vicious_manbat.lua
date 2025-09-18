@@ -80,7 +80,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -215 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -215 },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -100, maxDamage = -250, radius = 3, effect = CONST_ME_HITAREA, target = false },
 	{ name = "speed", interval = 2000, chance = 15, radius = 1, effect = CONST_ME_BATS, target = true },
 	-- bleed

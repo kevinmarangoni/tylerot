@@ -110,7 +110,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 200, maxDamage = -869, condition = { type = CONDITION_FIRE, totalDamage = 6, interval = 9000 } },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 200, maxDamage = -869, condition = { type = CONDITION_FIRE, totalDamage = 6, interval = 9000 } },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -170, maxDamage = -300, range = 7, shootEffect = CONST_ANI_POISON, target = false },
 	{ name = "choking fear drown", interval = 2000, chance = 20, target = false },
 	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -250, maxDamage = -500, radius = 4, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA, target = true },

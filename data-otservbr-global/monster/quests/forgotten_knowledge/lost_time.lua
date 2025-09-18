@@ -59,7 +59,7 @@ monster.voices = {
 monster.loot = {}
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, skill = 50, attack = 25 },
+	{ name = "melee", interval = 1500, chance = 100, skill = 50, attack = 25 },
 	{ name = "white shade paralyze", interval = 2000, chance = 18, target = false },
 }
 

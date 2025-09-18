@@ -95,7 +95,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -650, maxDamage = -1650 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -650, maxDamage = -1650 },
 	{ name = "rootkraken", interval = 2500, chance = 20 },
 	{ name = "combat", interval = 2500, chance = 23, type = COMBAT_DEATHDAMAGE, minDamage = -700, maxDamage = -1390, range = 5, effect = CONST_ME_REAPER, target = true },
 	{ name = "rootkrakentwo", interval = 2000, chance = 20 },

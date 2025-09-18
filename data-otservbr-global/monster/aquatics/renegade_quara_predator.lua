@@ -96,7 +96,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, skill = 100, attack = 82, effect = CONST_ME_DRAWBLOOD },
+	{ name = "melee", interval = 1500, chance = 100, skill = 100, attack = 82, effect = CONST_ME_DRAWBLOOD },
 }
 
 monster.defenses = {

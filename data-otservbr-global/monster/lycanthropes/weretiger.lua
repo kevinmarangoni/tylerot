@@ -90,7 +90,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -50, maxDamage = -625 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -50, maxDamage = -625 },
 	{ name = "energy chain", interval = 3300, chance = 20, minDamage = -175, maxDamage = -375, range = 3, target = true },
 	{ name = "combat", interval = 3300, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -200, maxDamage = -375, length = 5, spread = 2, effect = CONST_ME_BLUE_ENERGY_SPARK, target = false },
 	{ name = "combat", interval = 2700, chance = 37, type = COMBAT_PHYSICALDAMAGE, minDamage = -175, maxDamage = -325, radius = 1, effect = CONST_ME_BIG_SCRATCH, range = 1, target = true },

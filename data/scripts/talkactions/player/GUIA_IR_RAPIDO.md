@@ -18,11 +18,18 @@
 
 ### **🏠 CIDADES:**
 ```
-/ir thais              # Thais
+/ir thais              # Thais (Templo)
 /ir venore             # Venore
 /ir carlin             # Carlin
 /ir ab'dendriel        # Ab'Dendriel
 /ir rookgaard          # Rookgaard
+```
+
+### **🏛️ TEMPLOS:**
+```
+/ir thais templo       # Templo de Thais
+/ir templo thais       # Templo de Thais
+/ir templo de thais    # Templo de Thais
 ```
 
 ### **📚 LIVRARIAS:**

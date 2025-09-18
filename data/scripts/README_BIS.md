@@ -6,10 +6,19 @@ Sistema inteligente que identifica automaticamente a vocação do jogador e apli
 ## **🎯 Funcionalidades**
 
 ### **✅ Identificação Automática de Vocação**
-- **Elite Knight (ID: 4)**: Set BiS completo implementado
-- **Paladin (ID: 3)**: Set BiS completo implementado
+**Vocações Básicas:**
 - **Sorcerer (ID: 1)**: Set BiS completo implementado
 - **Druid (ID: 2)**: Set BiS completo implementado
+- **Paladin (ID: 3)**: Set BiS completo implementado
+- **Knight (ID: 4)**: Set BiS completo implementado
+
+**Vocações Promovidas:**
+- **Master Sorcerer (ID: 5)**: Set BiS completo implementado
+- **Elder Druid (ID: 6)**: Set BiS completo implementado
+- **Royal Paladin (ID: 7)**: Set BiS completo implementado
+- **Elite Knight (ID: 8)**: Set BiS completo implementado
+
+**Outras:**
 - **Rook (ID: 0)**: Sem set BiS (precisa evoluir)
 
 ### **🎮 Comando Principal**
@@ -122,10 +131,20 @@ Sistema inteligente que identifica automaticamente a vocação do jogador e apli
 ## **🎮 Resultado Final**
 
 Após usar `/bis`:
-- **Elite Knight**: ✅ Set completo de 9 itens BiS
-- **Paladin**: ✅ Set completo de 8 itens BiS
+
+**Vocações Básicas:**
+- **Knight**: ✅ Set completo de 9 itens BiS
+- **Paladin**: ✅ Set completo de 9 itens BiS
 - **Sorcerer**: ✅ Set completo de 9 itens BiS
 - **Druid**: ✅ Set completo de 9 itens BiS
+
+**Vocações Promovidas:**
+- **Elite Knight**: ✅ Set completo de 9 itens BiS
+- **Royal Paladin**: ✅ Set completo de 9 itens BiS
+- **Master Sorcerer**: ✅ Set completo de 9 itens BiS
+- **Elder Druid**: ✅ Set completo de 9 itens BiS
+
+**Outras:**
 - **Rooks**: ❌ Mensagem para evoluir primeiro
 
 ---

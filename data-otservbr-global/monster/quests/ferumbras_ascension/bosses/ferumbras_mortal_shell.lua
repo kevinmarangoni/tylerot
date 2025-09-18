@@ -144,7 +144,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, skill = 90, attack = 200 },
+	{ name = "melee", interval = 1500, chance = 100, skill = 90, attack = 200 },
 	-- poison
 	{ name = "condition", type = CONDITION_POISON, interval = 2000, chance = 20, minDamage = -250, maxDamage = -520, radius = 6, effect = CONST_ME_POISONAREA, target = false },
 	{ name = "ferumbras electrify", interval = 2000, chance = 18, target = false },

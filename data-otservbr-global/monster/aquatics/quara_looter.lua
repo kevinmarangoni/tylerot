@@ -93,7 +93,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, type = COMBAT_DEATHDAMAGE, minDamage = -150, maxDamage = -450 },
+	{ name = "melee", interval = 1500, chance = 100, type = COMBAT_DEATHDAMAGE, minDamage = -150, maxDamage = -450 },
 	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_ICEDAMAGE, minDamage = -400, maxDamage = -750, range = 7, shootEffect = CONST_ANI_SHIVERARROW, effect = CONST_ME_ICEATTACK, target = true },
 	{ name = "quarasmallicering", interval = 2000, chance = 16 },
 	{ name = "podzillaphyschain", interval = 2000, chance = 15 },

@@ -65,7 +65,7 @@ monster.voices = {
 monster.loot = {}
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -400 },
 	{ name = "emberbeastarea", interval = 1000, chance = 20, minDamage = -200, maxDamage = -450, target = false },
 	{ name = "emberbeasthur", interval = 2000, chance = 10, minDamage = -200, maxDamage = -450, target = false },
 }

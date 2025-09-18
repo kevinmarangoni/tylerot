@@ -79,7 +79,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -100 },
 	{ name = "combat", interval = 4000, chance = 30, type = COMBAT_ENERGYDAMAGE, minDamage = -35, maxDamage = -55, length = 5, spread = 0, effect = CONST_ME_BIGCLOUDS, target = false },
 }
 

@@ -77,7 +77,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, skill = 50, attack = 30, condition = { type = CONDITION_POISON, totalDamage = 80, interval = 4000 } },
+	{ name = "melee", interval = 1500, chance = 100, skill = 50, attack = 30, condition = { type = CONDITION_POISON, totalDamage = 80, interval = 4000 } },
 	{ name = "nightstalker paralyze", interval = 2000, chance = 19, range = 7, target = false },
 	{ name = "combat", interval = 2000, chance = 50, type = COMBAT_MANADRAIN, minDamage = -100, maxDamage = -200, range = 1, effect = CONST_ME_HOLYAREA, target = true },
 	{ name = "speed", interval = 2000, chance = 40, speedChange = -600, range = 6, shootEffect = CONST_ANI_SNOWBALL, effect = CONST_ME_ICEAREA, target = true, duration = 20000 },

@@ -69,7 +69,7 @@ monster.voices = {
 monster.loot = {}
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -0, maxDamage = -162 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -0, maxDamage = -162 },
 	{ name = "haunted treeling paralyze", interval = 2000, chance = 10, target = false },
 	{ name = "combat", interval = 2000, chance = 9, type = COMBAT_EARTHDAMAGE, minDamage = -0, maxDamage = -86, range = 4, radius = 4, shootEffect = CONST_ANI_POISON, effect = CONST_ME_HITBYPOISON, target = true },
 }

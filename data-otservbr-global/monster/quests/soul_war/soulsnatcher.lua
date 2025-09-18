@@ -59,7 +59,7 @@ monster.light = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -1000, maxDamage = -1500 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -1000, maxDamage = -1500 },
 	{ name = "soulsnatcher-lifedrain-beam", interval = 2000, chance = 20, minDamage = -1000, maxDamage = -1500, target = false },
 	{ name = "soulsnatcher-lifedrain-missile", interval = 2000, chance = 25, minDamage = -1000, maxDamage = -1500, target = true },
 	{ name = "soulsnatcher-manadrain-ball", interval = 2000, chance = 30, minDamage = -500, maxDamage = -1000 },

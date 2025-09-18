@@ -59,7 +59,7 @@ monster.light = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -2000, maxDamage = -3000 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -2000, maxDamage = -3000 },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -2000, maxDamage = -3000, range = 1, effect = CONST_ME_MAGIC_RED, target = false },
 }
 

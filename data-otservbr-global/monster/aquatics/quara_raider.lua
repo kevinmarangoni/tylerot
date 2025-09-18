@@ -91,7 +91,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, type = COMBAT_PHYSICALDAMAGE, minDamage = -250, maxDamage = -320 },
+	{ name = "melee", interval = 1500, chance = 100, type = COMBAT_PHYSICALDAMAGE, minDamage = -250, maxDamage = -320 },
 	{ name = "quaralargeicering", interval = 2000, chance = 20, minDamage = -1250, maxDamage = -1400, target = false },
 	{ name = "quararaidershoot", interval = 2000, chance = 35, minDamage = -650, maxDamage = -900, range = 7, target = true },
 	{ name = "quarawatersplash", interval = 2000, chance = 18, minDamage = -1350, maxDamage = -1600, target = false },

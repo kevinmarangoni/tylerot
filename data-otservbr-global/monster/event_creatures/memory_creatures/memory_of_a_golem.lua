@@ -74,8 +74,8 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, skill = 60, attack = 50 },
-	{ name = "melee", interval = 2000, chance = 2, skill = 86, attack = 100 },
+	{ name = "melee", interval = 1500, chance = 100, skill = 60, attack = 50 },
+	{ name = "melee", interval = 1500, chance = 2, skill = 86, attack = 100 },
 	{ name = "combat", interval = 2000, chance = 25, type = COMBAT_ENERGYDAMAGE, minDamage = -50, maxDamage = -150, range = 7, shootEffect = CONST_ANI_ENERGY, target = false },
 	{ name = "war golem skill reducer", interval = 2000, chance = 16, target = false },
 }

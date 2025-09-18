@@ -22,16 +22,22 @@ function globalConfig.onStartup()
     print(">> [Global Config] Configurações aplicadas para jogadores online!")
 end
 
-function globalConfig.onLogin(player)
+-- Evento de login separado
+local globalConfigLogin = CreatureEvent("globalConfigLogin")
+
+function globalConfigLogin.onLogin(player)
     if not GlobalSettings.isEnabled("GENERAL.ENABLE_AUTO_APPLY") then
-        return
+        return true
     end
 
     -- Aplicar configurações quando jogador fizer login
     if player then
         applyGlobalConfig(player)
     end
+    return true
 end
+
+globalConfigLogin:register()
 
 function applyGlobalConfig(player)
     if not player then

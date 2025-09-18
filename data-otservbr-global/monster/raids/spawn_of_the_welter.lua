@@ -65,7 +65,7 @@ monster.voices = {
 monster.loot = {}
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -270 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -270 },
 	{ name = "poisonfield", interval = 2000, chance = 25, range = 7, radius = 3, shootEffect = CONST_ANI_POISON, target = true },
 }
 

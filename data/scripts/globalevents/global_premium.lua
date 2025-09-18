@@ -18,11 +18,11 @@ function globalPremium.onStartup()
     print(">> [Global Premium] Iniciando aplicação de premium global...")
 
     local result = db.storeQuery("SELECT id, name FROM accounts")
-    if result then
+    if result ~= false then
         local accountsUpdated = 0
         repeat
-            local accountId = result.getDataInt(result, "id")
-            local accountName = result.getDataString(result, "name")
+            local accountId = result:getNumber("id")
+            local accountName = result:getString("name")
 
             -- Aplicar premium
             db.query("UPDATE accounts SET premium_ends_at = " .. os.time() + (PremiumSettings.getNumber("PREMIUM_DAYS") * 24 * 60 * 60) .. " WHERE id = " .. accountId)
@@ -30,8 +30,8 @@ function globalPremium.onStartup()
 
             accountsUpdated = accountsUpdated + 1
             print(">> [Global Premium] Conta " .. accountName .. " atualizada com premium!")
-        until not result.next(result)
-        result.free(result)
+        until not result:next()
+        result:free()
 
         print(">> [Global Premium] " .. accountsUpdated .. " contas atualizadas com premium!")
     end
@@ -39,17 +39,20 @@ function globalPremium.onStartup()
     print(">> [Global Premium] Aplicação de premium global concluída!")
 end
 
-function globalPremium.onLogin(player)
+-- Evento de login separado para premium
+local globalPremiumLogin = CreatureEvent("globalPremiumLogin")
+
+function globalPremiumLogin.onLogin(player)
     if not PremiumSettings.isEnabled("ENABLE_GLOBAL_PREMIUM") then
-        return
+        return true
     end
 
     if not PremiumSettings.isEnabled("APPLY_ON_LOGIN") then
-        return
+        return true
     end
 
     if not player then
-        return
+        return true
     end
 
     local accountId = player:getAccountId()
@@ -68,7 +71,11 @@ function globalPremium.onLogin(player)
     if PremiumSettings.isEnabled("LOG_ACTIONS") then
         print(">> [Global Premium] Jogador " .. player:getName() .. " recebeu premium na conta " .. accountId)
     end
+
+    return true
 end
+
+globalPremiumLogin:register()
 
 -- Registrar o evento global
 globalPremium:register()

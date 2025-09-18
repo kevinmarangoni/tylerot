@@ -77,7 +77,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -250 },
 	{ name = "combat", interval = 4000, chance = 60, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -160, shootEffect = CONST_ANI_THROWINGKNIFE, target = false },
 }
 

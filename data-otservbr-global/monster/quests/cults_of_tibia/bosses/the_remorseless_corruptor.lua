@@ -65,7 +65,7 @@ monster.voices = {
 monster.loot = {}
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -150, maxDamage = -500 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -150, maxDamage = -500 },
 	{ name = "combat", interval = 2000, chance = 25, type = COMBAT_ENERGYDAMAGE, minDamage = 0, maxDamage = -500, length = 9, spread = 0, effect = CONST_ME_LOSEENERGY, target = false },
 	{ name = "remorseless wave", interval = 2000, chance = 25, target = false },
 	{ name = "combat", interval = 2000, chance = 25, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -500, radius = 7, effect = CONST_ME_HITAREA, target = false },

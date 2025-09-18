@@ -87,9 +87,9 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -125 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -125 },
 	{ name = "combat", interval = 2000, chance = 30, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -100, range = 7, shootEffect = CONST_ANI_THROWINGSTAR, target = false },
-	{ name = "melee", interval = 2000, chance = 30, minDamage = 0, maxDamage = 0 },
+	{ name = "melee", interval = 1500, chance = 30, minDamage = 0, maxDamage = 0 },
 	{ name = "pirate corsair skill reducer", interval = 2000, chance = 5, target = false },
 }
 

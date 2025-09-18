@@ -92,7 +92,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250, effect = CONST_ME_PURPLEENERGY },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -250, effect = CONST_ME_PURPLEENERGY },
 	{ name = "iksyapunacwave", interval = 2000, chance = 20, minDamage = -175, maxDamage = -300 },
 	{ name = "combat", interval = 2000, chance = 17, type = COMBAT_DEATHDAMAGE, minDamage = -140, maxDamage = -260, range = 5, effect = CONST_ME_MORTAREA, target = true },
 }

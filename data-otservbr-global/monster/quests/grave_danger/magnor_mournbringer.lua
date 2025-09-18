@@ -66,7 +66,7 @@ monster.voices = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -200, maxDamage = -600 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -200, maxDamage = -600 },
 	{ name = "combat", interval = 4000, chance = 70, type = COMBAT_ENERGYDAMAGE, minDamage = -1000, maxDamage = -1200, length = 5, effect = CONST_ME_BIGCLOUDS, target = false },
 	{ name = "combat", interval = 3000, chance = 50, type = COMBAT_ENERGYDAMAGE, minDamage = -400, maxDamage = -900, length = 7, spread = 5, effect = CONST_ME_TELEPORT, target = false },
 }

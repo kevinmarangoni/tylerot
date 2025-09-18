@@ -97,7 +97,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -400, maxDamage = -2225 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = -400, maxDamage = -2225 },
 	{ name = "megalomania blue", interval = 6000, chance = 100, target = true },
 	{ name = "combat", interval = 30000, chance = 100, type = COMBAT_LIFEDRAIN, minDamage = -1000, maxDamage = -1500, length = 8, radius = 5, spread = 0, effect = CONST_ME_PINK_ENERGY_SPARK, target = true },
 }

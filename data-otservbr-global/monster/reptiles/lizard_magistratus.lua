@@ -90,7 +90,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -60 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -60 },
 	{ name = "lizard magistratus curse", interval = 2000, chance = 10, range = 5, target = false },
 }
 

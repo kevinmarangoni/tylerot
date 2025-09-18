@@ -64,7 +64,7 @@ monster.voices = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -2800 },
+	{ name = "melee", interval = 1500, chance = 100, minDamage = 0, maxDamage = -2800 },
 	{ name = "combat", interval = 3000, chance = 20, type = COMBAT_LIFEDRAIN, minDamage = -50, maxDamage = -2800, effect = CONST_ME_MAGIC_RED, target = false, radius = 3 },
 	{ name = "doctor marrow explosion", interval = 10000, chance = 25, target = true, range = 1 },
 	{ name = "root", interval = 4000, chance = 10, target = true },
