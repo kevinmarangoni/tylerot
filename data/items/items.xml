@@ -71742,7 +71742,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="transformDeEquipTo" value="39177"/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="showattributes" value="1"/>
-		<attribute key="duration" value="999999999"/>
+		<attribute key="duration" value="99999999999"/>
 		<attribute key="decayTo" value="39179"/>
 		<attribute key="weight" value="95"/>
 		<attribute key="script" value="moveevent">
@@ -71793,7 +71793,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="transformDeEquipTo" value="39180"/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="showattributes" value="1"/>
-		<attribute key="duration" value="10800"/>
+		<attribute key="duration" value="99999999999"/>
 		<attribute key="decayTo" value="39182"/>
 		<attribute key="weight" value="85"/>
 		<attribute key="script" value="moveevent">
@@ -71844,7 +71844,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="transformDeEquipTo" value="39183"/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="showattributes" value="1"/>
-		<attribute key="duration" value="10800"/>
+		<attribute key="duration" value="99999999999"/>
 		<attribute key="decayTo" value="39185"/>
 		<attribute key="weight" value="90"/>
 		<attribute key="script" value="moveevent">
@@ -71895,7 +71895,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="transformDeEquipTo" value="39186"/>
 		<attribute key="showattributes" value="1"/>
 		<attribute key="showduration" value="1"/>
-		<attribute key="duration" value="10800"/>
+		<attribute key="duration" value="99999999999"/>
 		<attribute key="decayTo" value="39188"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="400"/>

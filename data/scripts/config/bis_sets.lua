@@ -14,7 +14,7 @@ BisSets = {
             {id = 43865, name = "Grand Sanguine Blade", slot = "weapon2"},
             {id = 39233, name = "Enchanted Turtle Amulet", slot = "necklace"},
             {id = 34099, name = "Soulbastion", slot = "shield"},
-            {id = 39177, name = "Charged Spiritthorn Ring", slot = "ring"},
+            {id = 39178, name = "charged spiritthorn ring", slot = "ring"},
             -- Itens auxiliares de quest
             {id = 28493, name = "Bone Fiddle", slot = "auxiliary"},
             {id = 43863, name = "Conch Shell Horn", slot = "auxiliary"},
@@ -23,7 +23,8 @@ BisSets = {
             {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
             {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
             {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
-            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"},
+            {id = 9596, name = "squeezing gear of girlpower", slot = "auxiliary"}
         }
     },
 
@@ -48,7 +49,8 @@ BisSets = {
             {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
             {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
             {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
-            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"},
+            {id = 9596, name = "squeezing gear of girlpower", slot = "auxiliary"}
         }
     },
 
@@ -73,7 +75,8 @@ BisSets = {
             {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
             {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
             {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
-            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"},
+            {id = 9596, name = "squeezing gear of girlpower", slot = "auxiliary"}
         }
     },
 
@@ -98,7 +101,8 @@ BisSets = {
             {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
             {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
             {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
-            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"},
+            {id = 9596, name = "squeezing gear of girlpower", slot = "auxiliary"}
         }
     },
 
@@ -123,7 +127,8 @@ BisSets = {
             {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
             {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
             {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
-            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"},
+            {id = 9596, name = "squeezing gear of girlpower", slot = "auxiliary"}
         }
     },
 
@@ -148,7 +153,8 @@ BisSets = {
             {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
             {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
             {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
-            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"},
+            {id = 9596, name = "squeezing gear of girlpower", slot = "auxiliary"}
         }
     },
 
@@ -173,7 +179,8 @@ BisSets = {
             {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
             {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
             {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
-            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"},
+            {id = 9596, name = "squeezing gear of girlpower", slot = "auxiliary"}
         }
     },
 
@@ -189,7 +196,7 @@ BisSets = {
             {id = 43865, name = "Grand Sanguine Blade", slot = "weapon2"},
             {id = 39233, name = "Enchanted Turtle Amulet", slot = "necklace"},
             {id = 34099, name = "Soulbastion", slot = "shield"},
-            {id = 39177, name = "Charged Spiritthorn Ring", slot = "ring"},
+            {id = 39178, name = "charged spiritthorn ring", slot = "ring"},
             -- Itens auxiliares de quest
             {id = 28493, name = "Bone Fiddle", slot = "auxiliary"},
             {id = 43863, name = "Conch Shell Horn", slot = "auxiliary"},
@@ -198,7 +205,8 @@ BisSets = {
             {id = 43740, name = "Scarab Ocarina", slot = "auxiliary"},
             {id = 25976, name = "Starlight Vial", slot = "auxiliary"},
             {id = 25977, name = "Sun Catcher", slot = "auxiliary"},
-            {id = 9042, name = "Magical Torch", slot = "auxiliary"}
+            {id = 9042, name = "Magical Torch", slot = "auxiliary"},
+            {id = 9596, name = "squeezing gear of girlpower", slot = "auxiliary"}
         }
     },
 
